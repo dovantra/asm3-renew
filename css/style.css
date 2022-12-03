@@ -1,0 +1,174 @@
+.mobai {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hovaten {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image1 {
+  height: 450px;
+  width: auto;
+}
+.menu {
+  text-decoration: none;
+}
+
+.cot11 {
+  height: auto;
+  background-color: #ebe9e9;
+  border-right: 1px solid rgb(216, 210, 210);
+  padding-left: 30%;
+  padding-top: 10%;
+}
+.cot12 {
+  background-color: #dedede;
+  height: auto;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+
+.cot2 {
+  display: grid;
+
+  grid-template-columns: 50% 50%;
+  background-color: #fbfbfc;
+}
+.cottt {
+  text-decoration: none;
+}
+
+.cottt1 {
+  text-decoration: none;
+}
+
+.cottrongcot {
+  text-decoration: none;
+}
+.ic-toolbox {
+  font-size: 50px;
+  padding-top: 12px;
+}
+.ic-tools-2 {
+  font-size: 50px;
+  padding-top: 10px;
+}
+.ic-mic {
+  font-size: 50px;
+  padding-top: 10px;
+}
+.cottrongcot1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-left: 10px;
+}
+.cottrongcot2 {
+  display: grid;
+  grid-template-columns: 28% 28% 28% 28%;
+}
+.ic-strategy {
+  color: #199cdb;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+.ic-megaphone {
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+.thanh1 {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.thanh2 {
+  background: #b2b4b5;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.giaithuong {
+  text-decoration: none;
+}
+.giaithuong1 {
+  position: relative;
+  height: auto;
+  height: 180px;
+}
+.giaithuong2 {
+  text-decoration: none;
+}
+
+.imagegt {
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 180px;
+}
+.chu {
+  padding-left: 200px;
+}
+.ic-pencil {
+  font-size: 50px;
+  padding-top: 60px;
+}
+.duan {
+  height: 500px;
+  display: grid;
+  grid-template-columns: 27% 27% 27%;
+  column-gap: 20px;
+  padding-left: 20%;
+}
+.cotduan {
+  margin: 20px 20px 20px 20px;
+  border: 1px solid black;
+}
+.imgduan {
+  width: 100%;
+  height: 200px;
+}
+.dongchu {
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+.icon {
+  border-bottom: 1px solid black;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  column-gap: 10%;
+}
+#c2 {
+  border-bottom: 1px solid black;
+}
+.footer {
+  display: none;
+  justify-content: center;
+  background-color: #d8dada;
+  height: 100px;
+}
+#bo {
+  padding-top: 30px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #199cdb;
+}
+.anhdaidien {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: 44%;
+  top: 400px;
+  border-radius: 50%;
+  border: 5px solid white;
+}

@@ -1,0 +1,145 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  .menu1 {
+    text-decoration: none;
+
+    padding: 15px 15px 15px 15px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+  }
+  .menu2 {
+    display: none;
+    text-decoration: none;
+    padding: 15px 15px 15px 15px;
+  }
+  .cot11 {
+    height: auto;
+    background-color: #ebe9e9;
+    border-right: 1px solid rgb(216, 210, 210);
+    padding-left: 5%;
+    padding-top: 10%;
+  }
+  .cot12 {
+    background-color: #dedede;
+    height: auto;
+    padding-left: 5%;
+    padding-top: 10%;
+  }
+  .cot2 {
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+    background-color: #fbfbfc;
+  }
+  .cottt {
+    display: grid;
+    background-color: #fbfbfc;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+    row-gap: 10px;
+  }
+  .cottt1 {
+    display: grid;
+    margin: 20px 20px 20px 20px;
+    height: auto;
+    background-color: rgb(237, 237, 237);
+    border: 1px solid grey;
+    grid-template-columns: 50% 50%;
+    row-gap: auto;
+    padding-left: 5px;
+  }
+  .cottrongcot {
+    height: auto;
+    padding: 25% 25% 25% 25%;
+  }
+  .cottrongcot1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 10px;
+  }
+  .cottrongcot2 {
+    display: grid;
+    grid-template-columns: 28% 28% 28% 28%;
+  }
+  .giaithuong {
+    background-color: rgb(241, 239, 237);
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .giaithuong1 {
+    position: relative;
+    height: 180px;
+    border-right: 1px solid black;
+    margin-bottom: 20px;
+  }
+  .giaithuong2 {
+    height: 180px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-top: 1px solid black;
+  }
+
+  .imagegt {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 180px;
+  }
+  .chu {
+    padding-left: 200px;
+  }
+  .duan {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .cotduan {
+    margin: 20px 20px 20px 20px;
+    border: 1px solid black;
+  }
+  .imgduan {
+    width: 100%;
+    height: 200px;
+  }
+  .dongchu {
+    text-align: left;
+    border-bottom: 1px solid black;
+  }
+  .icon {
+    border-bottom: 1px solid black;
+  }
+
+  .c1 {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    column-gap: 10%;
+  }
+  #c2 {
+    border-bottom: 1px solid black;
+  }
+  .footer {
+    background-color: #d8dada;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #bo {
+    text-decoration: none;
+    color: #199cdb;
+  }
+  .anhdaidien {
+    display: none;
+  }
+}
